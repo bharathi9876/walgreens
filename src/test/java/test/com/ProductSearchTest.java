@@ -91,7 +91,7 @@ public class ProductSearchTest {
         driver.quit();
     }
 
-//    @Test
+    @Test
     public void logIn() throws Exception {
         driver.get("https://www.walgreens.com/");
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Account'])[1]/following::*[name()='svg'][1]")).click();
