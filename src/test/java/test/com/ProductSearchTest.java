@@ -126,7 +126,7 @@ public class ProductSearchTest {
         driver.quit();
     }
 
-    //@Test
+    @Test
     public void testFindcare() throws Exception {
         driver.get("https://www.walgreens.com/");
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='FREE Ship to Home No Minimum'])[1]/following::strong[1]")).click();
